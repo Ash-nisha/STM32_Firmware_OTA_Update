@@ -1,0 +1,113 @@
+[0/1] Re-running CMake...
+-- git describe returned 'fatal: bad object HEAD
+fatal: 'git status --porcelain=2' failed in submodule vendor/c_exception
+fatal: 'git status --porcelain=2' failed in submodule components/cmock/CMock'
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Projects/esp/SecondESP/sdkconfig
+-- App "SecondESP" version: ed10dd1
+-- Adding linker script C:/Projects/esp/SecondESP/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: ads111x ads130e08 aht am2320 app_trace app_update bh1750 bh1900nux bme680 bmp180 bmp280 bootloader bootloader_support bt button calibration ccs811 cmock color console cxx dht dps310 driver ds1302 ds1307 ds18x20 ds3231 ds3502 efuse encoder esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_idf_lib_helpers esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py example fatfs framebuffer freertos hal hd44780 hdc1000 heap hmc5883l ht16k33 hts221 http_parser hx711 i2cdev icm42670 idf_test ieee802154 ina219 ina260 ina3221 json lc709203f led_strip led_strip_spi lib8tion lm75 log ls7366r lwip main max1704x max31725 max31855 max31865 max7219 mbedtls mcp23008 mcp23x17 mcp342x mcp4725 mcp960x mcp9808 mhz19b mpu6050 mqtt ms5611 newlib noise nvs_flash onewire openthread partition_table pca9557 pca9685 pcf8563 pcf8574 pcf8575 pcf8591 perfmon protobuf-c protocol_examples_common protocomm pthread qmc5883l rda5807m scd30 scd4x sdmmc sfa3x sgm58031 sgp40 sht3x sht4x si7021 soc spi_flash spiffs sts21 sts3x tca6424a tca9548 tca95x5 tcp_transport tda74xx tsl2561 tsl2591 tsl4531 tsys01 ulp ultrasonic unity usb veml7700 vfs wear_levelling wiegand wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Projects/esp/esp-idf-lib/components/ads111x C:/Projects/esp/esp-idf-lib/components/ads130e08 C:/Projects/esp/esp-idf-lib/components/aht C:/Projects/esp/esp-idf-lib/components/am2320 C:/esp/esp-idf/components/app_trace C:/esp/esp-idf/components/app_update C:/Projects/esp/esp-idf-lib/components/bh1750 C:/Projects/esp/esp-idf-lib/components/bh1900nux C:/Projects/esp/esp-idf-lib/components/bme680 C:/Projects/esp/esp-idf-lib/components/bmp180 C:/Projects/esp/esp-idf-lib/components/bmp280 C:/esp/esp-idf/components/bootloader C:/esp/esp-idf/components/bootloader_support C:/esp/esp-idf/components/bt C:/Projects/esp/esp-idf-lib/components/button C:/Projects/esp/esp-idf-lib/components/calibration C:/Projects/esp/esp-idf-lib/components/ccs811 C:/esp/esp-idf/components/cmock C:/Projects/esp/esp-idf-lib/components/color C:/esp/esp-idf/components/console C:/esp/esp-idf/components/cxx C:/Projects/esp/esp-idf-lib/components/dht C:/Projects/esp/esp-idf-lib/components/dps310 C:/esp/esp-idf/components/driver C:/Projects/esp/esp-idf-lib/components/ds1302 C:/Projects/esp/esp-idf-lib/components/ds1307 C:/Projects/esp/esp-idf-lib/components/ds18x20 C:/Projects/esp/esp-idf-lib/components/ds3231 C:/Projects/esp/esp-idf-lib/components/ds3502 C:/esp/esp-idf/components/efuse C:/Projects/esp/esp-idf-lib/components/encoder C:/esp/esp-idf/components/esp-tls C:/esp/esp-idf/components/esp_adc C:/esp/esp-idf/components/esp_app_format C:/esp/esp-idf/components/esp_coex C:/esp/esp-idf/components/esp_common C:/esp/esp-idf/components/esp_eth C:/esp/esp-idf/components/esp_event C:/esp/esp-idf/components/esp_gdbstub C:/esp/esp-idf/components/esp_hid C:/esp/esp-idf/components/esp_http_client C:/esp/esp-idf/components/esp_http_server C:/esp/esp-idf/components/esp_https_ota C:/esp/esp-idf/components/esp_https_server C:/esp/esp-idf/components/esp_hw_support C:/Projects/esp/esp-idf-lib/components/esp_idf_lib_helpers C:/esp/esp-idf/components/esp_lcd C:/esp/esp-idf/components/esp_local_ctrl C:/esp/esp-idf/components/esp_mm C:/esp/esp-idf/components/esp_netif C:/esp/esp-idf/components/esp_netif_stack C:/esp/esp-idf/components/esp_partition C:/esp/esp-idf/components/esp_phy C:/esp/esp-idf/components/esp_pm C:/esp/esp-idf/components/esp_psram C:/esp/esp-idf/components/esp_ringbuf C:/esp/esp-idf/components/esp_rom C:/esp/esp-idf/components/esp_system C:/esp/esp-idf/components/esp_timer C:/esp/esp-idf/components/esp_wifi C:/esp/esp-idf/components/espcoredump C:/esp/esp-idf/components/esptool_py C:/Projects/esp/esp-idf-lib/components/example C:/esp/esp-idf/components/fatfs C:/Projects/esp/esp-idf-lib/components/framebuffer C:/esp/esp-idf/components/freertos C:/esp/esp-idf/components/hal C:/Projects/esp/esp-idf-lib/components/hd44780 C:/Projects/esp/esp-idf-lib/components/hdc1000 C:/esp/esp-idf/components/heap C:/Projects/esp/esp-idf-lib/components/hmc5883l C:/Projects/esp/esp-idf-lib/components/ht16k33 C:/Projects/esp/esp-idf-lib/components/hts221 C:/esp/esp-idf/components/http_parser C:/Projects/esp/esp-idf-lib/components/hx711 C:/Projects/esp/esp-idf-lib/components/i2cdev C:/Projects/esp/esp-idf-lib/components/icm42670 C:/esp/esp-idf/components/idf_test C:/esp/esp-idf/components/ieee802154 C:/Projects/esp/esp-idf-lib/components/ina219 C:/Projects/esp/esp-idf-lib/components/ina260 C:/Projects/esp/esp-idf-lib/components/ina3221 C:/esp/esp-idf/components/json C:/Projects/esp/esp-idf-lib/components/lc709203f C:/Projects/esp/esp-idf-lib/components/led_strip C:/Projects/esp/esp-idf-lib/components/led_strip_spi C:/Projects/esp/esp-idf-lib/components/lib8tion C:/Projects/esp/esp-idf-lib/components/lm75 C:/esp/esp-idf/components/log C:/Projects/esp/esp-idf-lib/components/ls7366r C:/esp/esp-idf/components/lwip C:/Projects/esp/SecondESP/main C:/Projects/esp/esp-idf-lib/components/max1704x C:/Projects/esp/esp-idf-lib/components/max31725 C:/Projects/esp/esp-idf-lib/components/max31855 C:/Projects/esp/esp-idf-lib/components/max31865 C:/Projects/esp/esp-idf-lib/components/max7219 C:/esp/esp-idf/components/mbedtls C:/Projects/esp/esp-idf-lib/components/mcp23008 C:/Projects/esp/esp-idf-lib/components/mcp23x17 C:/Projects/esp/esp-idf-lib/components/mcp342x C:/Projects/esp/esp-idf-lib/components/mcp4725 C:/Projects/esp/esp-idf-lib/components/mcp960x C:/Projects/esp/esp-idf-lib/components/mcp9808 C:/Projects/esp/esp-idf-lib/components/mhz19b C:/Projects/esp/esp-idf-lib/components/mpu6050 C:/esp/esp-idf/components/mqtt C:/Projects/esp/esp-idf-lib/components/ms5611 C:/esp/esp-idf/components/newlib C:/Projects/esp/esp-idf-lib/components/noise C:/esp/esp-idf/components/nvs_flash C:/Projects/esp/esp-idf-lib/components/onewire C:/esp/esp-idf/components/openthread C:/esp/esp-idf/components/partition_table C:/Projects/esp/esp-idf-lib/components/pca9557 C:/Projects/esp/esp-idf-lib/components/pca9685 C:/Projects/esp/esp-idf-lib/components/pcf8563 C:/Projects/esp/esp-idf-lib/components/pcf8574 C:/Projects/esp/esp-idf-lib/components/pcf8575 C:/Projects/esp/esp-idf-lib/components/pcf8591 C:/esp/esp-idf/components/perfmon C:/esp/esp-idf/components/protobuf-c C:/esp/esp-idf/examples/common_components/protocol_examples_common C:/esp/esp-idf/components/protocomm C:/esp/esp-idf/components/pthread C:/Projects/esp/esp-idf-lib/components/qmc5883l C:/Projects/esp/esp-idf-lib/components/rda5807m C:/Projects/esp/esp-idf-lib/components/scd30 C:/Projects/esp/esp-idf-lib/components/scd4x C:/esp/esp-idf/components/sdmmc C:/Projects/esp/esp-idf-lib/components/sfa3x C:/Projects/esp/esp-idf-lib/components/sgm58031 C:/Projects/esp/esp-idf-lib/components/sgp40 C:/Projects/esp/esp-idf-lib/components/sht3x C:/Projects/esp/esp-idf-lib/components/sht4x C:/Projects/esp/esp-idf-lib/components/si7021 C:/esp/esp-idf/components/soc C:/esp/esp-idf/components/spi_flash C:/esp/esp-idf/components/spiffs C:/Projects/esp/esp-idf-lib/components/sts21 C:/Projects/esp/esp-idf-lib/components/sts3x C:/Projects/esp/esp-idf-lib/components/tca6424a C:/Projects/esp/esp-idf-lib/components/tca9548 C:/Projects/esp/esp-idf-lib/components/tca95x5 C:/esp/esp-idf/components/tcp_transport C:/Projects/esp/esp-idf-lib/components/tda74xx C:/Projects/esp/esp-idf-lib/components/tsl2561 C:/Projects/esp/esp-idf-lib/components/tsl2591 C:/Projects/esp/esp-idf-lib/components/tsl4531 C:/Projects/esp/esp-idf-lib/components/tsys01 C:/esp/esp-idf/components/ulp C:/Projects/esp/esp-idf-lib/components/ultrasonic C:/esp/esp-idf/components/unity C:/esp/esp-idf/components/usb C:/Projects/esp/esp-idf-lib/components/veml7700 C:/esp/esp-idf/components/vfs C:/esp/esp-idf/components/wear_levelling C:/Projects/esp/esp-idf-lib/components/wiegand C:/esp/esp-idf/components/wifi_provisioning C:/esp/esp-idf/components/wpa_supplicant C:/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Projects/esp/SecondESP/build
+[1/12] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Projects\esp\SecondESP\build\bootloader\esp-idf\esptool_py && c:\esp\tools\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Projects/esp/SecondESP/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/10] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[3/10] Linking C static library esp-idf\esp_app_format\libesp_app_format.a
+[4/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/10] Linking C static library esp-idf\main\libmain.a
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable SecondESP.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated C:/Projects/esp/SecondESP/build/SecondESP.bin
+[9/10] cmd.exe /C "cd /D C:\Projects\esp\SecondESP\build\esp-idf\esptool_py && c:\esp\tools\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Projects/esp/SecondESP/build/partition_table/partition-table.bin C:/Projects/esp/SecondESP/build/SecondESP.bin"
+SecondESP.bin binary size 0xdcbe0 bytes. Smallest app partition is 0x100000 bytes. 0x23420 bytes (14%) free.
+[9/10] cmd.exe /C "cd /D C:\esp\esp-idf\components\esptool_py && C:\esp\tools\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/esp/esp-idf -D SERIAL_TOOL=c:/esp/tools/python_env/idf5.1_py3.11_env/Scripts/python.exe;;C:/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Projects/esp/SecondESP/build -P C:/esp/esp-idf/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32 -p COM5 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 SecondESP.bin 0x8000 partition_table/partition-table.bin 0xd000 ota_data_initial.bin
+esptool.py v4.7.dev1
+Serial port COM5
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 40:91:51:fc:ea:d4
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000ecfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000d000 to 0x0000efff...
+Compressed 26640 bytes to 16692...
+Writing at 0x00001000... (50 %)
+Writing at 0x0000768a... (100 %)
+Wrote 26640 bytes (16692 compressed) at 0x00001000 in 1.0 seconds (effective 214.6 kbit/s)...
+Hash of data verified.
+Compressed 904160 bytes to 578955...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001b998... (5 %)
+Writing at 0x00026345... (8 %)
+Writing at 0x0002c95c... (11 %)
+Writing at 0x00033764... (13 %)
+Writing at 0x0003da40... (16 %)
+Writing at 0x00043366... (19 %)
+Writing at 0x000490dd... (22 %)
+Writing at 0x0004ea24... (25 %)
+Writing at 0x000544f8... (27 %)
+Writing at 0x0005a295... (30 %)
+Writing at 0x0005fb6e... (33 %)
+Writing at 0x00064e7e... (36 %)
+Writing at 0x0006a380... (38 %)
+Writing at 0x0006f62a... (41 %)
+Writing at 0x00074cda... (44 %)
+Writing at 0x0007a3f4... (47 %)
+Writing at 0x0008006c... (50 %)
+Writing at 0x00085bb6... (52 %)
+Writing at 0x0008b057... (55 %)
+Writing at 0x00090918... (58 %)
+Writing at 0x0009619a... (61 %)
+Writing at 0x0009b84e... (63 %)
+Writing at 0x000a1061... (66 %)
+Writing at 0x000a6b19... (69 %)
+Writing at 0x000ac384... (72 %)
+Writing at 0x000b1dd5... (75 %)
+Writing at 0x000b785e... (77 %)
+Writing at 0x000bdbee... (80 %)
+Writing at 0x000c3519... (83 %)
+Writing at 0x000c993e... (86 %)
+Writing at 0x000d34d4... (88 %)
+Writing at 0x000da278... (91 %)
+Writing at 0x000dfe3c... (94 %)
+Writing at 0x000e596f... (97 %)
+Writing at 0x000eac25... (100 %)
+Wrote 904160 bytes (578955 compressed) at 0x00010000 in 14.4 seconds (effective 501.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 138...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (138 compressed) at 0x00008000 in 0.1 seconds (effective 218.5 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000d000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000d000 in 0.2 seconds (effective 329.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

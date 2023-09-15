@@ -1,0 +1,29 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM5 instead...[0m
+[0;33m--- idf_monitor on \\.\COM5 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081380: call_start_cpu1 at C:/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6915: run_ota at C:/Projects/esp/SecondESP/main/main.c:63 (discriminator 1)
+[0m
+[0;33m0x40088dfb: _esp_error_check_failed at C:/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400819e6: panic_abort at C:/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x40088e05: esp_system_abort at C:/esp/esp-idf/components/esp_system/port/esp_system_chip.c:84
+[0m
+[0;33m0x4008feae: abort at C:/esp/esp-idf/components/newlib/abort.c:38
+[0m
+[0;33m0x40088dfb: _esp_error_check_failed at C:/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x400d6915: run_ota at C:/Projects/esp/SecondESP/main/main.c:63 (discriminator 1)
+[0m
+[0;33m0x4008b7e5: vPortTaskWrapper at C:/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081380: call_start_cpu1 at C:/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0m

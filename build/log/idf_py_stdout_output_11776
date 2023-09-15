@@ -1,0 +1,268 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF -128-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 27 2023 01:54:34[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (77) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (85) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (92) boot:  3 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (100) boot:  4 ota_0            OTA app          00 10 00110000 00100000[0m
+[0;32mI (107) boot:  5 ota_1            OTA app          00 11 00210000 00100000[0m
+[0;32mI (115) boot: End of partition table[0m
+[0;32mI (119) boot: Defaulting to factory image[0m
+[0;32mI (124) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=27b24h (162596) map[0m
+[0;32mI (191) esp_image: segment 1: paddr=00037b4c vaddr=3ffb0000 size=03790h ( 14224) load[0m
+[0;32mI (197) esp_image: segment 2: paddr=0003b2e4 vaddr=40080000 size=04d34h ( 19764) load[0m
+[0;32mI (205) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=9c054h (639060) map[0m
+[0;32mI (436) esp_image: segment 4: paddr=000dc07c vaddr=40084d34 size=10b48h ( 68424) load[0m
+[0;32mI (476) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (476) boot: Disabling RNG early entropy source...[0m
+[0;32mI (487) cpu_start: Multicore app[0m
+[0;32mI (488) cpu_start: Pro cpu up.[0m
+[0;32mI (488) cpu_start: Starting app cpu, entry point is 0x40081380[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (506) cpu_start: Pro cpu start user code[0m
+[0;32mI (506) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (506) cpu_start: Application information:[0m
+[0;32mI (510) cpu_start: Project name:     SecondESP[0m
+[0;32mI (516) cpu_start: App version:      1143f00[0m
+[0;32mI (521) cpu_start: Compile time:     Aug 27 2023 19:31:14[0m
+[0;32mI (527) cpu_start: ELF file SHA256:  5f41d8381f008da5...[0m
+[0;32mI (533) cpu_start: ESP-IDF:          -128-NOTFOUND[0m
+[0;32mI (538) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (543) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (548) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (553) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (560) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (566) heap_init: At 3FFB7E58 len 000281A8 (160 KiB): DRAM[0m
+[0;32mI (572) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (578) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (585) heap_init: At 4009587C len 0000A784 (41 KiB): IRAM[0m
+[0;32mI (592) spi_flash: detected chip: generic[0m
+[0;32mI (595) spi_flash: flash io: dio[0m
+[0;32mI (600) app_start: Starting scheduler on CPU0[0m
+[0;32mI (605) app_start: Starting scheduler on CPU1[0m
+[0;32mI (605) main_task: Started on CPU0[0m
+[0;32mI (615) main_task: Calling app_main()[0m
+This version is with the Humidity and Temperature Sensor :) 
+Current firmware version is: 1143f00
+[0;32mI (625) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+[0;32mI (12825) OTA: Invoking OTA[0m
+[0;32mI (12825) example_connect: Start example_connect.[0m
+I (12835) wifi:wifi driver task: 3ffc1dac, prio:23, stack:6656, core=0
+I (12845) wifi:wifi firmware version: ce9244d
+I (12845) wifi:wifi certification version: v7.0
+I (12845) wifi:config NVS flash: enabled
+I (12845) wifi:config nano formating: disabled
+I (12855) wifi:Init data frame dynamic rx buffer num: 32
+I (12855) wifi:Init management frame dynamic rx buffer num: 32
+I (12865) wifi:Init management short buffer num: 32
+I (12865) wifi:Init dynamic tx buffer num: 32
+I (12875) wifi:Init static rx buffer size: 1600
+I (12875) wifi:Init static rx buffer num: 10
+I (12875) wifi:Init dynamic rx buffer num: 32
+[0;32mI (12885) wifi_init: rx ba win: 6[0m
+[0;32mI (12885) wifi_init: tcpip mbox: 32[0m
+[0;32mI (12895) wifi_init: udp mbox: 6[0m
+[0;32mI (12895) wifi_init: tcp mbox: 6[0m
+[0;32mI (12895) wifi_init: tcp tx win: 5744[0m
+[0;32mI (12905) wifi_init: tcp rx win: 5744[0m
+[0;32mI (12905) wifi_init: tcp mss: 1440[0m
+[0;32mI (12915) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (12915) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (12925) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+I (13045) wifi:mode : sta (f4:96:34:9d:e2:11)
+I (13045) wifi:enable tsf
+[0;32mI (13045) example_connect: Connecting to acts...[0m
+[0;32mI (13045) example_connect: Waiting for IP(s)[0m
+Humidity and Temperature : 58 28
+I (15455) wifi:new:<5,2>, old:<1,0>, ap:<255,255>, sta:<5,2>, prof:1
+I (15465) wifi:state: init -> auth (b0)
+I (15465) wifi:state: auth -> assoc (0)
+I (16465) wifi:state: assoc -> init (2700)
+I (16465) wifi:new:<5,0>, old:<5,2>, ap:<255,255>, sta:<5,2>, prof:1
+I (16465) wifi:new:<9,1>, old:<5,0>, ap:<255,255>, sta:<9,1>, prof:1
+I (16475) wifi:state: init -> auth (b0)
+I (16505) wifi:state: auth -> assoc (0)
+I (16515) wifi:state: assoc -> init (9c0)
+I (16525) wifi:new:<9,0>, old:<9,1>, ap:<255,255>, sta:<9,1>, prof:1
+I (16525) wifi:new:<9,1>, old:<9,0>, ap:<255,255>, sta:<9,1>, prof:1
+I (16525) wifi:state: init -> auth (b0)
+I (16535) wifi:state: auth -> assoc (0)
+Humidity and Temperature : 58 28
+I (17535) wifi:state: assoc -> init (2700)
+I (17535) wifi:new:<9,0>, old:<9,1>, ap:<255,255>, sta:<9,1>, prof:1
+I (17535) wifi:new:<5,0>, old:<9,0>, ap:<255,255>, sta:<5,0>, prof:1
+I (17535) wifi:state: init -> auth (b0)
+I (18545) wifi:state: auth -> init (200)
+I (18545) wifi:new:<5,0>, old:<5,0>, ap:<255,255>, sta:<5,0>, prof:1
+[0;32mI (18545) example_connect: Wi-Fi disconnected, trying to reconnect...[0m
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+[0;32mI (20965) example_connect: Wi-Fi disconnected, trying to reconnect...[0m
+Humidity and Temperature : 58 28
+I (23375) wifi:new:<5,2>, old:<5,0>, ap:<255,255>, sta:<5,2>, prof:1
+I (23375) wifi:state: init -> auth (b0)
+I (23385) wifi:state: auth -> assoc (0)
+I (23395) wifi:state: assoc -> run (10)
+I (23395) wifi:connected with acts, aid = 1, channel 5, 40D, bssid = 00:11:74:86:56:80
+I (23395) wifi:security: Open Auth, phy: bgn, rssi: -47
+I (23395) wifi:pm start, type: 1
+
+I (23425) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[0;32mI (24655) example_connect: Got IPv6 event: Interface "example_netif_sta" address: fe80:0000:0000:0000:f696:34ff:fe9d:e211, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+Humidity and Temperature : 58 28
+I (25475) wifi:<ba-add>idx:0 (ifx:0, 00:11:74:86:56:80), tid:6, ssn:1, winSize:64
+[0;32mI (26405) esp_netif_handlers: example_netif_sta ip: 192.168.43.144, mask: 255.255.248.0, gw: 192.168.47.254[0m
+[0;32mI (26405) example_connect: Got IPv4 event: Interface "example_netif_sta" address: 192.168.43.144[0m
+[0;32mI (26415) example_common: Connected to example_netif_sta[0m
+[0;32mI (26415) example_common: - IPv4 address: 192.168.43.144,[0m
+[0;32mI (26425) example_common: - IPv6 address: fe80:0000:0000:0000:f696:34ff:fe9d:e211, type: ESP_IP6_ADDR_IS_LINK_LOCAL[0m
+I (26425) wifi:<ba-add>idx:1 (ifx:0, 00:11:74:86:56:80), tid:0, ssn:0, winSize:64
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+[0;32mI (31065) esp_https_ota: Starting OTA...[0m
+[0;32mI (31065) esp_https_ota: Writing to partition subtype 16 at offset 0x110000[0m
+[0;32mI (31065) OTA: Beginning OTA Process ![0m
+[0;32mI (31075) OTA: Sucess in Reading OTA Image/Descriptor so Far[0m
+[0;32mI (31075) OTA: Current version of Firmware is 1143f00
+[0m
+[0;32mI (31085) OTA: New version of Firmware is 1770e4b
+[0m
+[0;32mI (31085) OTA: New Version Detected : OTA will be Performed !![0m
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 58 28
+Humidity and Temperature : 59 28
+Humidity and Temperature : 59 28
+Humidity and Temperature : 59 28
+[0;32mI (69955) esp_image: segment 0: paddr=00110020 vaddr=3f400020 size=27b24h (162596) map[0m
+[0;32mI (70005) esp_image: segment 1: paddr=00137b4c vaddr=3ffb0000 size=03790h ( 14224) [0m
+[0;32mI (70045) esp_image: segment 2: paddr=0013b2e4 vaddr=40080000 size=04d34h ( 19764) [0m
+[0;32mI (70045) esp_image: segment 3: paddr=00140020 vaddr=400d0020 size=9c048h (639048) map[0m
+[0;32mI (70245) esp_image: segment 4: paddr=001dc070 vaddr=40084d34 size=10b48h ( 68424) [0m
+[0;32mI (70265) esp_image: segment 0: paddr=00110020 vaddr=3f400020 size=27b24h (162596) map[0m
+[0;32mI (70325) esp_image: segment 1: paddr=00137b4c vaddr=3ffb0000 size=03790h ( 14224) [0m
+[0;32mI (70325) esp_image: segment 2: paddr=0013b2e4 vaddr=40080000 size=04d34h ( 19764) [0m
+[0;32mI (70335) esp_image: segment 3: paddr=00140020 vaddr=400d0020 size=9c048h (639048) map[0m
+[0;32mI (70535) esp_image: segment 4: paddr=001dc070 vaddr=40084d34 size=10b48h ( 68424) [0m
+Restarting in 5 seconds
+Humidity and Temperature : 59 28
+Humidity and Temperature : 59 28
+I (75635) wifi:state: run -> init (0)
+I (75635) wifi:pm stop, total sleep time: 10509895 us / 52229742 us
+
+I (75635) wifi:<ba-del>idx:1, tid:0
+I (75635) wifi:<ba-del>idx:0, tid:6
+I (75635) wifi:new:<5,0>, old:<5,2>, ap:<255,255>, sta:<5,2>, prof:1
+E (75645) wifi:NAN WiFi stop
+I (75705) wifi:flush txq
+I (75705) wifi:stop sw txq
+I (75705) wifi:lmac stop hw txq
+I (75705) wifi:Deinit lldesc rx mblock:10
+ets Jul 29 2019 12:21:46
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15584
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (31) boot: ESP-IDF -128-NOTFOUND 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 27 2023 01:54:34[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (77) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (85) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (92) boot:  3 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (100) boot:  4 ota_0            OTA app          00 10 00110000 00100000[0m
+[0;32mI (107) boot:  5 ota_1            OTA app          00 11 00210000 00100000[0m
+[0;32mI (115) boot: End of partition table[0m
+[0;32mI (119) esp_image: segment 0: paddr=00110020 vaddr=3f400020 size=27b24h (162596) map[0m
+[0;32mI (186) esp_image: segment 1: paddr=00137b4c vaddr=3ffb0000 size=03790h ( 14224) load[0m
+[0;32mI (192) esp_image: segment 2: paddr=0013b2e4 vaddr=40080000 size=04d34h ( 19764) load[0m
+[0;32mI (201) esp_image: segment 3: paddr=00140020 vaddr=400d0020 size=9c048h (639048) map[0m
+[0;32mI (432) esp_image: segment 4: paddr=001dc070 vaddr=40084d34 size=10b48h ( 68424) load[0m
+[0;32mI (471) boot: Loaded app from partition at offset 0x110000[0m
+[0;32mI (471) boot: Disabling RNG early entropy source...[0m
+[0;32mI (483) cpu_start: Multicore app[0m
+[0;32mI (483) cpu_start: Pro cpu up.[0m
+[0;32mI (483) cpu_start: Starting app cpu, entry point is 0x40081380[0m
+[0;32mI (470) cpu_start: App cpu up.[0m
+[0;32mI (501) cpu_start: Pro cpu start user code[0m
+[0;32mI (501) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (501) cpu_start: Application information:[0m
+[0;32mI (506) cpu_start: Project name:     SecondESP[0m
+[0;32mI (511) cpu_start: App version:      1770e4b[0m
+[0;32mI (516) cpu_start: Compile time:     Aug 27 2023 14:54:56[0m
+[0;32mI (522) cpu_start: ELF file SHA256:  4635f2122ab07dde...[0m
+[0;32mI (528) cpu_start: ESP-IDF:          -128-NOTFOUND[0m
+[0;32mI (534) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (538) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (543) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (548) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (555) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (561) heap_init: At 3FFB7E58 len 000281A8 (160 KiB): DRAM[0m
+[0;32mI (567) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (574) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (580) heap_init: At 4009587C len 0000A784 (41 KiB): IRAM[0m
+[0;32mI (588) spi_flash: detected chip: generic[0m
+[0;32mI (591) spi_flash: flash io: dio[0m
+[0;32mI (596) app_start: Starting scheduler on CPU0[0m
+[0;32mI (600) app_start: Starting scheduler on CPU1[0m
+[0;32mI (600) main_task: Started on CPU0[0m
+[0;32mI (610) main_task: Calling app_main()[0m
+This version is with the Humidity and Temperature Sensor :) 
+Current firmware version is: 1770e4b
+[0;32mI (620) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+Humidity and Temperature : 59 28
+Humidity and Temperature : 59 28
+Humidity and Temperature : 59 28
